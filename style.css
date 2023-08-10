@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/*header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight :800;
+    font-size: 45px;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+}
+nav li{
+    list-style:none;
+    margin-left:50px;
+}
+.btn-primary{
+    color: #ffffff;
+    font-weight:700;
+    font-size:20px;
+    border:0;
+    padding:18px 35px;
+    height:64px;
+    border-radius: 5px;
+    background: #F37955;
+}
+.text-primary{
+    color: #fd6efd;
+}
+.banner{
+    display:flex;
+    align-items: center;
+    margin: 100px 100px;
+}
+.banner-title{
+      font-weight:700;
+      font-size:85px;
+}
+.banner-subtitle{
+    font-weight:600;
+      font-size:45px;
+}
+.banner-description{
+    color: #F479;
+    font-size: 40px;
+    margin: 30px;
+}
+
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+.about{
+     margin-top:130px;
+     background: #FFF8F3;
+     border-radius: 10px;
+     padding:130px 150px;
+    
+}
+.section-title{
+     text-align:center;
+     margin-bottom: 30px;
+}
+.section-description{
+    color: #757577;
+    font-size:18px;
+    margin-bottom: 30px;
+
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.about .info-title{
+    font-size:20px;
+    color: #757577;
+}
+
+.info-description{
+    font-weight:700;
+    font-size:20px;
+    color:#474747;
+}
